@@ -36,7 +36,7 @@ For each set of images, the software must be manually calibrated using expert ju
 5. Run orthorectification on one image to check if it is correct.
 6. Check a subset of the images with the code to see if the threshold is appropriate in the thresh part. If not, correct to judgement.
 7. Once satisfied with the results on the subset, run the code for the desired images specifying the folder in which they have to be run.
-8. The code will output a shapefile into the set destination folder containing the characteristics of the run like location and number of images.
+8. The code will output a .csv file into the set destination folder containing the resulting timestamp and stage.
 
 ## What to expect when running the code.
-When running the code, the end result will be a printed statement of the result location and a simple graph plotted with the time series of the derived data.
+When running the code, the end result will be a printed statement of the result location and a simple graph plotted with the time series of the derived data, and timestamps will be printed to the terminal.
